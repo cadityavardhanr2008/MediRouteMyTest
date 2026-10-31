@@ -1,0 +1,13 @@
+{
+  "name": "mediroute-live-field-test",
+  "version": "1.0.1",
+  "private": true,
+  "description": "MediRoute two-portal live-device location and ambulance journey field-test application",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node tests/static-check.js && node tests/integration.js"
+  }
+}
